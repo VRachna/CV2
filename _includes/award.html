@@ -6,9 +6,8 @@
     {{ awards.title }}
   </h2>
 
-  <ul class="list-unstyled awards-list">
-    {% for award in awards.info %}
-
+   <ul class="list-unstyled awards-list">
+{% for award in awards.info %}
       {% if award.link %}
       <li><a href="{{ award.link }}">{{ award.item }}</a></li>
       {% else %}
