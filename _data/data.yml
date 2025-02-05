@@ -60,17 +60,17 @@ sidebar:
     - item: Cooking
       link:
 
- award:
-    title: Best Star
+ awards:
+    title: awards
     info:
-    - item: Climbing
-      link:
+    - idiom: English
+      level: Native
 
-    - item: Snowboarding
-      link:
+    - idiom: French
+      level: Professional
 
-    - item: Cooking
-      link:
+    - idiom: Spanish
+      level: Professional
       
 career-profile:
   title: Career Profile
