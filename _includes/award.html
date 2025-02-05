@@ -1,19 +1,17 @@
 {% assign awards = site.data.data.sidebar.awards %}
-{% if awards %}
+{% if languages %}
 <div class="awards-container container-block">
 
   <h2 class="container-block-title">
     {{ awards.title }}
   </h2>
 
-   <ul class="list-unstyled awards-list">
-{% for award in awards.info %}
-      {% if award.link %}
-      <li><a href="{{ award.link }}">{{ award.item }}</a></li>
-      {% else %}
-      <li>{{ award.item }}</li>
-      {% endif %}
-
+  <ul class="list-unstyled interests-list">
+    {% for award in awards.info %}
+    <li>
+      {{ award.idiom }}
+      <span class="lang-desc">({{ award.level }})</span>
+    </li>
     {% endfor %}
   </ul>
 
