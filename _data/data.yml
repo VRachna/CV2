@@ -60,12 +60,6 @@ sidebar:
     - item: Cooking
       link:
 
- awards:
-    title: awards
-    info:
-    - idiom: Star
-      level: Native
-      
 career-profile:
   title: Career Profile
   summary: |
