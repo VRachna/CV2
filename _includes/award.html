@@ -1,13 +1,22 @@
- award:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
+{% assign awards = site.data.data.sidebar.awards %}
+{% if awards %}
+<div class="awards-container container-block">
 
+  <h2 class="container-block-title">
+    {{ awards.title }}
+  </h2>
 
-    - item: Snowboarding
-      link:
+  <ul class="list-unstyled awards-list">
+    {% for award in awards.info %}
 
+      {% if award.link %}
+      <li><a href="{{ award.link }}">{{ award.item }}</a></li>
+      {% else %}
+      <li>{{ award.item }}</li>
+      {% endif %}
 
-    - item: Cooking
-      link:
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
