@@ -37,12 +37,11 @@
   {% endfor %}
    
 <div class="picture">
- {% if picture.link %}
-        <img src="{{ picture.link }}">{{ picture}}
-        {% else %}
-        {{ picture}}
-        {% endif %}
- 
+  {% if picture.link %}
+    <img src="{{ picture.link }}" alt="{{ picture.alt_text }}">
+  {% else %}
+    <img src="{{ picture }}" alt="Logo">
+  {% endif %}
 </div>
 
    
