@@ -31,21 +31,15 @@
 
       {% if award.tagline %}
       - <span class="award-tagline">{{ award.tagline }}</span>
+      - <span class="picture"><img src="./assets/images/{{picture}}"></span>
       {% endif %}
 
     </div><!--//item-->
+
+   
   {% endfor %}
    
-<div class="picture">
-<!--
-   {% if picture.link %}
-    <img src="./assets/images/{{picture.link}}" alt="{{picture.alt_text}}">
-  {% else %}
-    <img src="./assets/images/{{picture}}" alt="Images">
-  {% endif %}
-   -->
-   <img src="./assets/images/{{picture}}>
- </div>
+
 
    
 </section><!--//section-->
