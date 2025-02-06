@@ -37,7 +37,13 @@
   {% endfor %}
    
 <div class="picture">
-  <img src= "./assets/images/Vanrachna-1.png">
+ {% if picture.link %}
+        <img src="{{ picture.link }}" target="_blank">
+         {{ picture.title }}
+        {% else %}
+        {{ picture.title }}
+        {% endif %}
+ 
 </div>
 
    
