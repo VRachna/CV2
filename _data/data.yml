@@ -296,7 +296,8 @@ awards:
   - title: Velocity
     link: "#hook"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
-    picture: "../assets/images/Vanrachna-1.png"
+   picture : "./assets/images/Vanrachna-1.png"
+
   
 
 #footer: >
