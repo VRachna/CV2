@@ -287,5 +287,14 @@ skills:
   - name: Sketch & Photoshop
     level: 60%
 
+awards:
+  title: Awards
+  intro: >
+   This is the wards hornor received from Royal Government of Cambodia.
+  assignments:
+  - title: Velocity
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
 #footer: >
  # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
