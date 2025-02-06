@@ -38,10 +38,9 @@
    
 <div class="picture">
  {% if picture.link %}
-        <img src="{{ picture.link }}" target="_blank">
-         {{ picture.title }}
+        <img src="{{ picture.link }}">{{ picture}}
         {% else %}
-        {{ picture.title }}
+        {{ picture}}
         {% endif %}
  
 </div>
