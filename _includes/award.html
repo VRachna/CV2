@@ -15,7 +15,7 @@
   {% if awards.intro %}
   <div class="intro">
       <p>{{ awards.intro }}</p>
-  </div><!--//intro-->
+  </div><!--//intro--> 
   {% endif %}
 
   {% for award in awards.assignments %}
@@ -31,7 +31,10 @@
 
       {% if award.tagline %}
       - <span class="award-tagline">{{ award.tagline }}</span><br>
-      <span class="picture">{{ picture }}</span>
+      {% endif %}
+       
+       {%if award.picture %}
+      <span class="award.picture"> {{ picture }}</span>
       {% endif %}
 
     </div><!--//item-->
