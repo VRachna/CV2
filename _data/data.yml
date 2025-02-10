@@ -294,7 +294,7 @@ awards:
     intro: >
     Descending order of precedence-Maha Sirivaddha
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
-    picture: "មេដាយព្រះរាជាណាចក្រកម្ពុជា-មហាសិរីវឌ្ឍន៍.jpg"
+    picture: "award-1.jpg"
     
   - title: Royal Order of Cambodia
     link: "#hook"
@@ -302,7 +302,7 @@ awards:
      Descending order of precedence-Maha Sirivaddha
     assignments:
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
-    picture: "មេដាយមុនីសារាភ័ណ្ឌ-ធិបឌិន.jpg"
+    picture: "award-2.jpg"
 
   - title: Royal Award from Cambodia King
     intro: >
@@ -310,7 +310,7 @@ awards:
     assignments:
     link: "#hook"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
-    picture: "មេដាយមុនីសារាភ័ណ្ឌ-អស្យឬទ្ធ.jpg"
+    picture: "award-3.jpg"
 
 
 #footer: >
