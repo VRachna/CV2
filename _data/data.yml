@@ -289,16 +289,25 @@ skills:
     level: 60%
 
 awards:
-  title: Awards
-  intro: >
-   This is the wards hornor received from Royal Government of Cambodia.
-  assignments:
-  - title: Velocity
+    - title: គ្រឿងឥស្សរិយយស
     link: "#hook"
+    intro: >
+    មេដាយព្រះរាជាណាចក្រកម្ពុជា មហាសេនា៖ ក្នុងឳកាស
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    picture: "profile.png"
+    
+  - title: គ្រឿងឥស្សរិយយស
+    link: "#hook"
+    intro: >
+    មេដាយមុនីសារាភ័ណ្ឌ ធិបឌិន្ន៖ ក្នុងឳកាស
+    assignments:
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
     picture: "profile.png"
 
   - title: Royal Award from Cambodia King
+    intro: >
+    េដាយមុនីសារាភ័ណ្ឌ អស្សឫទិ្ធ៖
+    assignments:
     link: "#hook"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
     picture: "desktop.png"
