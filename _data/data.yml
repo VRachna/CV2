@@ -289,9 +289,9 @@ skills:
     level: 60%
 
 awards:
-  - title: Royal Order of Cambodia-1
+  - title: Award
     link: "#hook"
-    intro:  
+    intro: > 
     Descending order of precedence-Maha Sirivaddha
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
     picture: "award-2.jpg"
