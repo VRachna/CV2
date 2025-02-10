@@ -296,7 +296,12 @@ awards:
   - title: Velocity
     link: "#hook"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
-    picture: "mobile.png"
+    picture: "profile.png"
+  
+  - title: Royal Award from Cambodia King
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    picture: "desktop.png
   
  #footer: >
  # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
